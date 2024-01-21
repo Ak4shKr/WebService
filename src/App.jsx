@@ -12,10 +12,10 @@ function App() {
     <>
       <Header />
       <Hero />
-      <About />
       <Testimonials />
-      <Pricing />
+      <About />
       <Contact />
+      <Pricing />
       <Footer />
     </>
   );

@@ -9,7 +9,7 @@ const Hero = () => {
  px-10 py-10 lg:px-20 lg:py-20"
       >
         <h1 className="text-green-600 font-bold text-6xl">
-          One-click solution for yuur static website
+          One-click solution for your static website
         </h1>
         <p className="text-slate-90 text-2xl">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
