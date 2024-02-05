@@ -1,11 +1,15 @@
 import React from "react";
 import { call, fb, insta, map, sms, twitter, yt } from "../assets/icons";
-import { cube } from "../assets/images/cube.png";
+// import { cube } from "../assets/images/cube.png";
+import cube from "../assets/images/cube.png";
 
 const Contact = () => {
   return (
     <>
-      <section className="w-full bg-slate-200 flex flex-col lg:flex-row gap-10 lg:gap-20 h-fit p-4 lg:p-20 justify-center items-center">
+      <section
+        id="contact"
+        className="w-full bg-slate-200 flex flex-col lg:flex-row gap-10 lg:gap-20 h-fit p-4 lg:p-20 justify-center items-center"
+      >
         <div className="flex justify-center items-center w-full lg:w-3/4 flex-col lg:flex-row bg-white rounded-lg px-8 py-12 gap-10 gap-z-20">
           <div className="flex flex-col justify-center items-start gap-4 w-full">
             <h1 className="text-green-600 font-bold text-[35px] ">
@@ -80,11 +84,11 @@ const Contact = () => {
         </div>
       </section>
 
-      <img
+      {/* <img
         src={cube}
         alt=""
         className="w-full h-72 absolute top-[3550px] hidden xl:block"
-      />
+      /> */}
     </>
   );
 };
